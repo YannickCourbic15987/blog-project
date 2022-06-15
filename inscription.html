@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./asset/scss/inscription.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2bb89bf154.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>inscription</title>
+  </head>
+
+  <body>
+    <section id="blog-header">
+      <nav id="navbar">
+        <button id="btn-drop">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="navDrop" class="init">
+        <ul id="ulLink">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="connexion.html">Connexion</a></li>
+          <li><a href="inscription.html">Inscription</a></li>
+          <li><a href="article.html">article</a></li>
+        </ul>
+      </div>
+
+      <div id="formCenter" class="visible">
+        <form id="formIn">
+          <label for="nom"> </label>
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            placeholder="votre nom"
+            class="input"
+          />
+          <label for="prenom"></label>
+          <input
+            type="text"
+            id="prenom"
+            name="prenom"
+            placeholder="votre prenom"
+            class="input"
+          />
+          <label for="numero"> Numero de Rue</label>
+          <input type="number" id="numero" name="numero" class="input" />
+          <label for="nomDeRue">Nom de Rue</label>
+          <input type="text" id="nomDeRue" name="nomDeRue" class="input" />
+          <label for="ville"> Ville</label>
+          <input type="text" id="ville" name="ville" class="input" />
+          <label for="CodePostal">Votre Code Postal </label>
+          <input type="number" id="CodePostal" name="CodePostal" />
+          <label for="mdp"></label>
+          <input type="text" id="id" name="id" placeholder="votre id :" />
+          <input
+            type="password"
+            id="mdp"
+            name="mdp"
+            placeholder="votre mdp :"
+          />
+          <div>
+            <input type="submit" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="./asset/js/inscription.js"></script>
+  </body>
+</html>

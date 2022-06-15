@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./asset/scss/connexion.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2bb89bf154.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>connexion</title>
+  </head>
+
+  <body>
+    <header id="blog-header">
+      <nav id="navbar">
+        <div>
+          <button id="btn-drop">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div id="navDrop" class="init">
+      <ul id="ulLink">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="connexion.html">Connexion</a></li>
+        <li><a href="inscription.html">Inscription</a></li>
+        <li><a href="article.html">article</a></li>
+      </ul>
+    </div>
+    <form class="form">
+      <div class="center">
+        <div>
+          <label for="title">nom de l'article</label>
+          <input type="text" name="title" id="title" />
+        </div>
+        <div>
+          <label for="desc">description</label>
+          <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+          <button class="btnsub" type="submit">submit</button>
+        </div>
+      </div>
+    </form>
+    <div class="result"></div>
+
+    <script src="./asset/js/connexion.js"></script>
+  </body>
+</html>

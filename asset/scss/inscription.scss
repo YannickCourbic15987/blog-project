@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#blog-header {
+    #navbar {
+        height: 10vh;
+        width: 100vw;
+        background-color: rgb(1, 99, 211);
+        display: flex;
+        align-items: center;
+        padding-left: 2rem;
+        #btn-drop {
+            border: none;
+            background-color: rgb(1, 99, 211);
+            .fa-bars {
+                font-size: 2rem;
+                color: yellow;
+            }
+        }
+    }
+    background-image: url("../svg/quantum-gradient.svg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navDrop {
+    height: 90vh;
+    width: 50vw;
+    background-color: rgb(143, 143, 143);
+
+    #ulLink {
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        color: white;
+        list-style: none;
+        align-items: center;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.init {
+    transition-duration: 1s;
+    transform: translateX(-50vw);
+    -webkit-transform: translateX(-50vw);
+    -moz-transform: translateX(-50vw);
+    -ms-transform: translateX(-50vw);
+    -o-transform: translateX(-50vw);
+}
+.final {
+    transition-duration: 1s;
+    transform: translateX(0vw);
+    -webkit-transform: translateX(0vw);
+    -moz-transform: translateX(0vw);
+    -ms-transform: translateX(0vw);
+    -o-transform: translateX(0vw);
+}
+
+#formCenter {
+    position: absolute;
+    top: 15%;
+    left: calc(24% - 1rem);
+
+    #formIn {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        color: white;
+        input {
+            padding: 0.5rem 2rem;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            border: none;
+        }
+    }
+}
+
+.toogle {
+    display: none;
+}
